@@ -1,0 +1,27 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "null_sword",
+    "customModelName": "Normal",
+    "name": "Null Sword",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 99999,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 20.0,
+    "usageCount": 999,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:AntimatterGem"
+      }
+    ]
+  }
+}

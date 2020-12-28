@@ -1,0 +1,90 @@
+{
+  "_fv": 5,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "containerBlock": "PlasmaInfuser",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Plasma Infuser",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Plasma Infuser",
+          "x": 259,
+          "y": 82
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 0,
+          "name": "Slot #0",
+          "x": 531,
+          "y": 177
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 1,
+          "name": "Slot #1",
+          "x": 331,
+          "y": 130
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Plasma Remaining:<VAR:PlasmaAmount>l",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Plasma Remaining:<VAR:PlasmaAmount>l",
+          "x": 302,
+          "y": 216
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Infuse",
+          "onClick": {
+            "name": "InfuseButtonPressed"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Infuse",
+          "x": 365,
+          "y": 174
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "inventory": "inherited",
+          "id": 2,
+          "name": "Slot #2",
+          "x": 489,
+          "y": 130
+        }
+      }
+    ],
+    "inventories": []
+  }
+}

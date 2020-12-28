@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "gauntlet_zombie:thevoid_portal_ew"
+    },
+    "axis=x": {
+      "model": "gauntlet_zombie:thevoid_portal_ns"
+    },
+    "inventory": {
+      "model": "gauntlet_zombie:thevoid_portal_ns"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 5,
+  "_type": "overlay",
+  "definition": {
+    "priority": "LOWEST",
+    "conditionxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"condition_input\" deletable=\"false\" x=\"40\" y=\"40\"><value name=\"CONDITION\"><block type=\"entity_haspotioneffect\"><field name=\"potion\">CUSTOM:PlasmaPoisoning</field></block></value></block></xml>",
+    "components": [],
+    "baseTexture": "plasmaoverlay.png",
+    "baseTextureW": 856,
+    "baseTextureH": 482
+  }
+}

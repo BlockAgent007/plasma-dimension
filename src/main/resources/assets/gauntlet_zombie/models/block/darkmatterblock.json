@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gauntlet_zombie:blocks/darkmatter_block",
+    "up": "gauntlet_zombie:blocks/darkmatter_block",
+    "north": "gauntlet_zombie:blocks/darkmatter_block",
+    "east": "gauntlet_zombie:blocks/darkmatter_block",
+    "south": "gauntlet_zombie:blocks/darkmatter_block",
+    "west": "gauntlet_zombie:blocks/darkmatter_block",
+    "particle": "gauntlet_zombie:blocks/darkmatter_block"
+  }
+}

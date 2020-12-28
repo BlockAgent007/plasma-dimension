@@ -1,0 +1,30 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "core_breaker",
+    "customModelName": "Normal",
+    "name": "Core Breaker",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 119999,
+    "efficiency": 99.0,
+    "attackSpeed": 0.6,
+    "enchantability": 0,
+    "damageVsEntity": 10.0,
+    "usageCount": 700,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.OBSIDIAN"
+      }
+    ],
+    "onRightClickedOnBlock": {
+      "name": "CoreBreakerRightClickedOnBlock"
+    }
+  }
+}

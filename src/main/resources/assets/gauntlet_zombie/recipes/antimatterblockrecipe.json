@@ -1,0 +1,42 @@
+{
+  "group": "gauntlet_zombie",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gauntlet_zombie:antimattergem"
+    },
+    "1": {
+      "item": "gauntlet_zombie:antimattergem"
+    },
+    "2": {
+      "item": "gauntlet_zombie:antimattergem"
+    },
+    "3": {
+      "item": "gauntlet_zombie:antimattergem"
+    },
+    "4": {
+      "item": "gauntlet_zombie:antimattergem"
+    },
+    "5": {
+      "item": "gauntlet_zombie:antimattergem"
+    },
+    "6": {
+      "item": "gauntlet_zombie:antimattergem"
+    },
+    "7": {
+      "item": "gauntlet_zombie:antimattergem"
+    },
+    "8": {
+      "item": "gauntlet_zombie:antimattergem"
+    }
+  },
+  "result": {
+    "item": "gauntlet_zombie:antimatterblock",
+    "count": 1
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "_fv": 5,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:VoidRock"
+    },
+    "portalParticles": {
+      "value": "SMOKE_NORMAL"
+    },
+    "portalLuminance": 1.0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Dimentional Implosion",
+    "igniterTab": {
+      "value": "MISC"
+    },
+    "texture": "dimentional_implosion",
+    "portalTexture": "void_portal",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:TheAbsence"
+      },
+      {
+        "value": "CUSTOM:AntimatterIslands"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:VoidRock"
+    },
+    "secondaryFillerBlock": {
+      "value": "CUSTOM:VoidRock"
+    },
+    "tertiaryFillerBlock": {
+      "value": ""
+    },
+    "fluidBlock": {
+      "value": "Blocks.AIR"
+    },
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "hasWeather": false,
+    "isDark": false,
+    "doesWaterVaporize": true,
+    "sleepResult": "DENY",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "dimensionMusic": {
+      "value": ""
+    },
+    "onPlayerEntersDimension": {
+      "name": "TheVoidPlayerEntersDimension"
+    },
+    "onPlayerLeavesDimension": {
+      "name": "VoidPowerIncreasePlayerLeavesDimension"
+    }
+  }
+}

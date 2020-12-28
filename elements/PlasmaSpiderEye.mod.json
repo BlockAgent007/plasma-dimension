@@ -1,0 +1,24 @@
+{
+  "_fv": 5,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "spider_eye",
+    "customModelName": "Normal",
+    "name": "Plasma Spider Eye",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 2,
+    "saturation": 3.2,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "PlasmaSpiderEyeFoodEaten"
+    }
+  }
+}

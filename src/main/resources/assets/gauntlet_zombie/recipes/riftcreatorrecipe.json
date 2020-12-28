@@ -1,0 +1,30 @@
+{
+  "group": "gauntlet_zombie",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "gauntlet_zombie:thevoid"
+    },
+    "1": {
+      "item": "minecraft:ender_pearl"
+    },
+    "2": {
+      "item": "gauntlet_zombie:thevoid"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gauntlet_zombie:plasmadimension",
+    "count": 1
+  }
+}

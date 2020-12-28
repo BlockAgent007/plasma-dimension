@@ -1,0 +1,51 @@
+{
+  "_fv": 5,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "darkstonearmor_head",
+    "enableBody": true,
+    "textureBody": "darkstonearmor_body",
+    "enableLeggings": true,
+    "textureLeggings": "darkstonearmor_leggings",
+    "enableBoots": true,
+    "textureBoots": "darkstonearmor_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "darkstonearmor",
+    "helmetName": "Darkstone Helmet",
+    "bodyName": "Darkstone Chestplate",
+    "leggingsName": "Darkstone Leggings",
+    "bootsName": "Darkstone Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 85,
+    "damageValueHelmet": 41,
+    "damageValueBody": 41,
+    "damageValueLeggings": 41,
+    "damageValueBoots": 41,
+    "enchantability": 5,
+    "toughness": 4.0,
+    "equipSound": {
+      "value": "item.armor.equip_chain"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Darkstone"
+      }
+    ]
+  }
+}

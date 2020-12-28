@@ -1,0 +1,21 @@
+[
+  {
+    "modid": "gauntlet_zombie",
+    "name": "Gauntlet Zombie",
+    "description": "Fight against the all powerful gauntlet zombie and claim a powerful weapon!",
+    "version": "1.0.0",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "logoFile": "",
+    "mcversion": "1.12.2",
+    "url": "https://mcreator.net",
+    "updateUrl": "",
+    "authorList": [
+      "BlockAgent007",
+      "MCreator"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

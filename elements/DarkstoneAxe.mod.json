@@ -1,0 +1,27 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "darkstone_axe",
+    "customModelName": "Normal",
+    "name": "Darkstone Axe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 5,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 5,
+    "damageVsEntity": 10.0,
+    "usageCount": 2640,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Darkstone"
+      }
+    ]
+  }
+}

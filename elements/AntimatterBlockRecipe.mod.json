@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:AntimatterBlock"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AntimatterGem"
+      },
+      {
+        "value": "CUSTOM:AntimatterGem"
+      },
+      {
+        "value": "CUSTOM:AntimatterGem"
+      },
+      {
+        "value": "CUSTOM:AntimatterGem"
+      },
+      {
+        "value": "CUSTOM:AntimatterGem"
+      },
+      {
+        "value": "CUSTOM:AntimatterGem"
+      },
+      {
+        "value": "CUSTOM:AntimatterGem"
+      },
+      {
+        "value": "CUSTOM:AntimatterGem"
+      },
+      {
+        "value": "CUSTOM:AntimatterGem"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "antimatterblockrecipe",
+    "namespace": "mod"
+  }
+}

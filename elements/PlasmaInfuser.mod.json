@@ -1,0 +1,93 @@
+{
+  "_fv": 5,
+  "_type": "block",
+  "definition": {
+    "texture": "plasma_infuser_bottom",
+    "textureTop": "plasma_infuser_top",
+    "textureLeft": "plasma_infuser_side",
+    "textureFront": "plasma_infuser_side",
+    "textureRight": "plasma_infuser_side",
+    "textureBack": "plasma_infuser_side",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "hasTransparency": false,
+    "transparencyType": "SOLID",
+    "mx": 0.0,
+    "my": 0.0,
+    "mz": 0.0,
+    "Mx": 1.0,
+    "My": 1.0,
+    "Mz": 1.0,
+    "faceShape": "SOLID",
+    "name": "Plasma Infuser",
+    "specialInfo": [
+      "Used to infuse darkmatter with plasma."
+    ],
+    "hardness": 1.5,
+    "resistance": 15.0,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "DECORATIONS"
+    },
+    "destroyTool": "pickaxe",
+    "affectedBySilkTouch": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 255,
+    "material": {
+      "value": "IRON"
+    },
+    "tickRate": 1,
+    "isReplaceable": false,
+    "isFlammable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "METAL"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": 6,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "PORTAL"
+    },
+    "particleSpawningShape": "Top",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 1,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": true,
+    "inventorySize": 3,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": false,
+    "inventoryOutSlotIDs": [],
+    "onRightClicked": {
+      "name": "PlasmaInfuserOnBlockRightClicked"
+    },
+    "onTickUpdate": {
+      "name": "PlasmaInfuserUpdateTick"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

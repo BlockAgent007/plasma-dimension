@@ -1,0 +1,27 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "darkstone_pickaxe",
+    "customModelName": "Normal",
+    "name": "Darkstone Pickaxe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 5,
+    "damageVsEntity": 7.0,
+    "usageCount": 2640,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Darkstone"
+      }
+    ]
+  }
+}

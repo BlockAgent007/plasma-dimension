@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gauntlet_zombie:blocks/plasma_infuser_bottom",
+    "up": "gauntlet_zombie:blocks/plasma_infuser_top",
+    "north": "gauntlet_zombie:blocks/plasma_infuser_side",
+    "east": "gauntlet_zombie:blocks/plasma_infuser_side",
+    "south": "gauntlet_zombie:blocks/plasma_infuser_side",
+    "west": "gauntlet_zombie:blocks/plasma_infuser_side",
+    "particle": "gauntlet_zombie:blocks/plasma_infuser_bottom"
+  }
+}

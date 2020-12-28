@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gauntlet_zombie:blocks/antimatter_ore",
+    "up": "gauntlet_zombie:blocks/antimatter_ore",
+    "north": "gauntlet_zombie:blocks/antimatter_ore",
+    "east": "gauntlet_zombie:blocks/antimatter_ore",
+    "south": "gauntlet_zombie:blocks/antimatter_ore",
+    "west": "gauntlet_zombie:blocks/antimatter_ore",
+    "particle": "gauntlet_zombie:blocks/antimatter_ore"
+  }
+}

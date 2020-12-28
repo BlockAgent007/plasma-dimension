@@ -1,0 +1,30 @@
+{
+  "group": "gauntlet_zombie",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:obsidian"
+    },
+    "1": {
+      "item": "gauntlet_zombie:thevoid"
+    },
+    "2": {
+      "item": "minecraft:obsidian"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gauntlet_zombie:corebreaker",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "gauntlet_zombie",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gauntlet_zombie:antimatterblock"
+    }
+  ],
+  "result": {
+    "item": "gauntlet_zombie:antimattergem",
+    "count": 9
+  }
+}

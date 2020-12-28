@@ -1,0 +1,23 @@
+{
+  "_fv": 5,
+  "_type": "potion",
+  "definition": {
+    "name": "Plasma",
+    "effectName": "Plasma Poisoning",
+    "icon": "plasma_poisoning_icon.png",
+    "color": {
+      "value": -1965825,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": false,
+    "curativeItems": [],
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "PlasmaPoisoningOnPotionActiveTick"
+    }
+  }
+}

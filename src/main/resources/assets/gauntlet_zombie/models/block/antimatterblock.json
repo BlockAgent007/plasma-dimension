@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gauntlet_zombie:blocks/emerald_block",
+    "up": "gauntlet_zombie:blocks/emerald_block",
+    "north": "gauntlet_zombie:blocks/emerald_block",
+    "east": "gauntlet_zombie:blocks/emerald_block",
+    "south": "gauntlet_zombie:blocks/emerald_block",
+    "west": "gauntlet_zombie:blocks/emerald_block",
+    "particle": "gauntlet_zombie:blocks/emerald_block"
+  }
+}
