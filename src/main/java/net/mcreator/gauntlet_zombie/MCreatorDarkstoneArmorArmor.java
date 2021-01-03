@@ -31,9 +31,9 @@ public class MCreatorDarkstoneArmorArmor extends Elementsgauntlet_zombie.ModElem
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("DARKSTONEARMORARMOR", "gauntlet_zombie:darkstonearmor", 85, new int[]{41, 41,
-				41, 41}, 5,
-				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("item.armor.equip_chain")), 4f);
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("DARKSTONEARMORARMOR", "gauntlet_zombie:darkstonearmor", 85, new int[]{5, 8, 10,
+				5}, 5,
+				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("item.armor.equip_chain")), 3f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("darkstonearmorarmorhelmet")
 				.setRegistryName("darkstonearmorarmorhelmet").setCreativeTab(CreativeTabs.COMBAT));
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.CHEST).setUnlocalizedName("darkstonearmorarmorbody")

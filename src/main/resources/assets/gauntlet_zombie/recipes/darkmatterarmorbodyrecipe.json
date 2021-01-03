@@ -1,0 +1,39 @@
+{
+  "group": "gauntlet_zombie",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "2": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "3": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "4": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "5": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "6": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "7": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "8": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    }
+  },
+  "result": {
+    "item": "gauntlet_zombie:darkmatterarmorbody",
+    "count": 1
+  }
+}

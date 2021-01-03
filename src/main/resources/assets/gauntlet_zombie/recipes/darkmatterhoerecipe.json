@@ -1,0 +1,27 @@
+{
+  "group": "gauntlet_zombie",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "1": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gauntlet_zombie:darkmatterhoe",
+    "count": 1
+  }
+}

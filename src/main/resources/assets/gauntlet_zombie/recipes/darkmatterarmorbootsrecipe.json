@@ -1,0 +1,26 @@
+{
+  "group": "gauntlet_zombie",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "2": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "3": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "5": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    }
+  },
+  "result": {
+    "item": "gauntlet_zombie:darkmatterarmorboots",
+    "count": 1
+  }
+}

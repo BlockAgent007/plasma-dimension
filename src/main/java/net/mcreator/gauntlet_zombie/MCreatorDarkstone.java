@@ -43,7 +43,7 @@ public class MCreatorDarkstone extends Elementsgauntlet_zombie.ModElement {
 			setUnlocalizedName("darkstone");
 			setSoundType(SoundType.STONE);
 			setHarvestLevel("pickaxe", 5);
-			setHardness(1.5F);
+			setHardness(10.5F);
 			setResistance(50F);
 			setLightLevel(0F);
 			setLightOpacity(255);

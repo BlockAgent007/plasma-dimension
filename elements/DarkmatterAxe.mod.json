@@ -1,0 +1,27 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "darkmatter_axe",
+    "customModelName": "Normal",
+    "name": "Darkmatter Axe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 7,
+    "efficiency": 45.0,
+    "attackSpeed": 1.0,
+    "enchantability": 50,
+    "damageVsEntity": 11.0,
+    "usageCount": 3160,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DarkmatterIngot"
+      }
+    ]
+  }
+}

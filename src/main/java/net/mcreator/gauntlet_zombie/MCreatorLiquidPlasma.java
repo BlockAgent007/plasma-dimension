@@ -41,7 +41,7 @@ public class MCreatorLiquidPlasma extends Elementsgauntlet_zombie.ModElement {
 	public MCreatorLiquidPlasma(Elementsgauntlet_zombie instance) {
 		super(instance, 41);
 		fluid = new Fluid("liquidplasma", new ResourceLocation("gauntlet_zombie:blocks/plasma_still"), new ResourceLocation(
-				"gauntlet_zombie:blocks/plasma_flow")).setLuminosity(6).setDensity(9).setViscosity(50).setGaseous(false);
+				"gauntlet_zombie:blocks/plasma_flow")).setLuminosity(6).setDensity(5).setViscosity(500).setGaseous(false);
 	}
 
 	@Override

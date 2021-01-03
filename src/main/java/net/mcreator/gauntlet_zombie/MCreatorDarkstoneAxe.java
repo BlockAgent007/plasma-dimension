@@ -46,7 +46,7 @@ public class MCreatorDarkstoneAxe extends Elementsgauntlet_zombie.ModElement {
 				Blocks.WOODEN_PRESSURE_PLATE});
 
 		protected ItemToolCustom() {
-			super(EnumHelper.addToolMaterial("DARKSTONEAXE", 5, 2640, 4f, 6f, 5), effective_items_set);
+			super(EnumHelper.addToolMaterial("DARKSTONEAXE", 5, 2640, 42.5f, 6f, 5), effective_items_set);
 			this.attackDamage = 6f;
 			this.attackSpeed = -3f;
 		}

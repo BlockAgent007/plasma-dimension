@@ -1,0 +1,27 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "darkmatter_shovel",
+    "customModelName": "Normal",
+    "name": "Darkmatter Shovel",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 7,
+    "efficiency": 45.0,
+    "attackSpeed": 1.0,
+    "enchantability": 50,
+    "damageVsEntity": 8.0,
+    "usageCount": 3160,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:DarkmatterIngot"
+      }
+    ]
+  }
+}

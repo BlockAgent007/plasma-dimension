@@ -27,7 +27,7 @@ public class MCreatorDarkstoneShovel extends Elementsgauntlet_zombie.ModElement 
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("DARKSTONESHOVEL", 5, 2640, 4f, 3.5f, 5)) {
+		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("DARKSTONESHOVEL", 5, 2640, 42.5f, 3.5f, 5)) {
 			{
 				this.attackSpeed = -3f;
 			}
