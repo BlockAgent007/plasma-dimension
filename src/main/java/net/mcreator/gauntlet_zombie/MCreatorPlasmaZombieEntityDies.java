@@ -47,7 +47,7 @@ public class MCreatorPlasmaZombieEntityDies extends Elementsgauntlet_zombie.ModE
 		}
 		if (((lootchanceIngot) <= 2.5)) {
 			if (!world.isRemote) {
-				EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(Items.IRON_INGOT, (int) (1)));
+				EntityItem entityToSpawn = new EntityItem(world, x, y, z, new ItemStack(MCreatorDarkmatterIngot.block, (int) (1)));
 				entityToSpawn.setPickupDelay(10);
 				world.spawnEntity(entityToSpawn);
 			}

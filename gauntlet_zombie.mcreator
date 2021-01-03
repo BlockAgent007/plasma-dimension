@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "GUI": 1,
+    "ENTITY": 12,
     "DIMENSION": 2,
-    "ENTITY": 12
+    "GUI": 1
   },
   "mod_elements": [
     {
@@ -1122,6 +1122,132 @@
           }
         ]
       }
+    },
+    {
+      "name": "DarkmatterArmor",
+      "type": "armor",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DarkmatterArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkmatterArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkmatterArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkmatterArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkmatterHoe",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkmatterShovel",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkmatterAxe",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkmatterPickaxe",
+      "type": "tool",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkmatterSword",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkmatterSwordRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkmatterPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkmatterAxeRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkmatterShovelRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkmatterHoeRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -1137,48 +1263,57 @@
     "en_us": {
       "tile.darkstonemonsteregg.name": "Darkstone Monster Egg",
       "item.corebreaker.name": "Core Breaker",
-      "entity.plasmacreeper.name": "Plasma Creeper",
-      "item.darkstoneshovel.name": "Darkstone Shovel",
       "item.darkstonehoe.name": "Darkstone Hoe",
-      "item.darkstoneaxe.name": "Darkstone Axe",
-      "tipped_arrow.effect.plasmapoisoning": "Arrow of Plasma",
-      "item.antimattergem.name": "Anti-matter Gem",
+      "item.darkmatteraxe.name": "Darkmatter Axe",
       "entity.null.name": "Null",
-      "item.darkstonearmorarmorhelmet.name": "Darkstone Helmet",
       "item.plasmaspidereye.name": "Plasma Spider Eye",
       "item.plasmaflesh.name": "Plasma Flesh",
       "splash_potion.effect.plasmaresistance": "Splash Plasma Resistance",
-      "item.plasmadimension.name": "Rift Creator",
-      "potion.effect.plasmaresistance": "Plasma Resistance",
       "entity.plasmasilverfish.name": "Plasma Silverfish",
       "item.nullsword.name": "Null Sword",
-      "item.darkstonearmorarmorlegs.name": "Darkstone Leggings",
-      "item.thevoid.name": "Dimentional Implosion",
-      "lingering_potion.effect.plasmapoisoning": "Lingering Plasma",
-      "tile.darkstone.name": "Darkstone",
-      "tile.antimatterore.name": "Anti-matter Ore",
       "item.darkmatteringot.name": "Darkmatter Ingot",
       "entity.plasmaspider.name": "Plasma Spider",
-      "tile.antimatterblock.name": "Block of Antimatter",
-      "entity.gauntletzombie.name": "Gauntlet Zombie",
-      "effect.plasmaresistance": "Plasma Resistance",
       "tile.plasmainfuser.name": "Plasma Infuser",
       "splash_potion.effect.plasmapoisoning": "Splash Plasma",
       "item.plasmaingot.name": "Plasma Ingot",
       "item.darkstonearmorarmorbody.name": "Darkstone Chestplate",
-      "tile.darkmatterblock.name": "Block of Darkmatter",
+      "item.darkmattershovel.name": "Darkmatter Shovel",
       "tile.darkmatterore.name": "Darkmatter Ore",
       "item.plasmabottle.name": "Plasma Bottle",
-      "tipped_arrow.effect.plasmaresistance": "Arrow of Plasma Resistance",
       "item.darkstonepickaxe.name": "Darkstone Pickaxe",
-      "potion.effect.plasmapoisoning": "Plasma",
       "entity.plasmazombie.name": "Plasma Zombie",
       "fluid.liquidplasma": "LiquidPlasma",
+      "item.darkmatterarmorhelmet.name": "Darkmatter Helmet",
       "tile.voidrock.name": "Void Rock",
-      "lingering_potion.effect.plasmaresistance": "Lingering Plasma Resistance",
       "item.darkstonearmorarmorboots.name": "Darkstone Boots",
       "item.darkstonesword.name": "Darkstone Sword",
-      "effect.plasmapoisoning": "Plasma Poisoning"
+      "effect.plasmapoisoning": "Plasma Poisoning",
+      "entity.plasmacreeper.name": "Plasma Creeper",
+      "item.darkstoneshovel.name": "Darkstone Shovel",
+      "item.darkstoneaxe.name": "Darkstone Axe",
+      "item.darkmatterarmorbody.name": "Darkmatter Chestplate",
+      "tipped_arrow.effect.plasmapoisoning": "Arrow of Plasma",
+      "item.antimattergem.name": "Anti-matter Gem",
+      "item.darkstonearmorarmorhelmet.name": "Darkstone Helmet",
+      "item.darkmatterarmorlegs.name": "Darkmatter Leggings",
+      "item.plasmadimension.name": "Rift Creator",
+      "potion.effect.plasmaresistance": "Plasma Resistance",
+      "item.darkstonearmorarmorlegs.name": "Darkstone Leggings",
+      "item.thevoid.name": "Dimentional Implosion",
+      "lingering_potion.effect.plasmapoisoning": "Lingering Plasma",
+      "item.darkmatterarmorboots.name": "Darkmatter Boots",
+      "tile.darkstone.name": "Darkstone",
+      "tile.antimatterore.name": "Anti-matter Ore",
+      "tile.antimatterblock.name": "Block of Antimatter",
+      "effect.plasmaresistance": "Plasma Resistance",
+      "entity.gauntletzombie.name": "Gauntlet Zombie",
+      "item.darkmattersword.name": "Darkmatter Sword",
+      "tile.darkmatterblock.name": "Block of Darkmatter",
+      "item.darkmatterhoe.name": "Darkmatter Hoe",
+      "tipped_arrow.effect.plasmaresistance": "Arrow of Plasma Resistance",
+      "potion.effect.plasmapoisoning": "Plasma",
+      "item.darkmatterpickaxe.name": "Darkmatter Pickaxe",
+      "lingering_potion.effect.plasmaresistance": "Lingering Plasma Resistance"
     }
   },
   "workspaceSettings": {

@@ -22,7 +22,7 @@
     "faceShape": "SOLID",
     "name": "Darkstone",
     "specialInfo": [],
-    "hardness": 1.5,
+    "hardness": 10.5,
     "resistance": 50.0,
     "hasGravity": false,
     "creativeTab": {

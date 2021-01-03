@@ -32,14 +32,14 @@ public class MCreatorDarkstoneHoe extends Elementsgauntlet_zombie.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemHoe(EnumHelper.addToolMaterial("DARKSTONEHOE", 5, 2640, 4f, -3f, 5)) {
+		elements.items.add(() -> new ItemHoe(EnumHelper.addToolMaterial("DARKSTONEHOE", 5, 2640, 42.5f, -3f, 5)) {
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
 				if (slot == EntityEquipmentSlot.MAINHAND) {
 					multimap.put(SharedMonsterAttributes.ATTACK_DAMAGE.getName(), new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Weapon modifier", 0,
 							0));
-					multimap.put(SharedMonsterAttributes.ATTACK_SPEED.getName(), new AttributeModifier(ATTACK_SPEED_MODIFIER, "Weapon modifier", -3,
-							0));
+					multimap.put(SharedMonsterAttributes.ATTACK_SPEED.getName(), new AttributeModifier(ATTACK_SPEED_MODIFIER, "Weapon modifier",
+							-3.5, 0));
 				}
 				return multimap;
 			}

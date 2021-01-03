@@ -32,7 +32,7 @@ public class MCreatorDarkstoneSword extends Elementsgauntlet_zombie.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("DARKSTONESWORD", 5, 2640, 4f, 4f, 5)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("DARKSTONESWORD", 5, 2640, 42.5f, 4f, 5)) {
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
 				if (slot == EntityEquipmentSlot.MAINHAND) {

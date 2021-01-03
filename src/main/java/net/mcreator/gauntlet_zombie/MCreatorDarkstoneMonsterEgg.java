@@ -51,7 +51,7 @@ public class MCreatorDarkstoneMonsterEgg extends Elementsgauntlet_zombie.ModElem
 			setUnlocalizedName("darkstonemonsteregg");
 			setSoundType(SoundType.STONE);
 			setHarvestLevel("pickaxe", 5);
-			setHardness(0.01F);
+			setHardness(-0.01F);
 			setResistance(50F);
 			setLightLevel(0F);
 			setLightOpacity(255);
