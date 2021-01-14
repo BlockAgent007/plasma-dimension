@@ -1248,6 +1248,86 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "PlasmaHoe",
+      "type": "tool",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlasmaShovel",
+      "type": "tool",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlasmaAxe",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlasmaPickaxe",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlasmaSword",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlasmaHoeRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlasmaShovelRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlasmaAxeRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlasmaPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlasmaSwordRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -1263,6 +1343,8 @@
     "en_us": {
       "tile.darkstonemonsteregg.name": "Darkstone Monster Egg",
       "item.corebreaker.name": "Core Breaker",
+      "item.plasmaaxe.name": "Plasma Axe",
+      "item.plasmapickaxe.name": "Plasma Pickaxe",
       "item.darkstonehoe.name": "Darkstone Hoe",
       "item.darkmatteraxe.name": "Darkmatter Axe",
       "entity.null.name": "Null",
@@ -1276,21 +1358,24 @@
       "tile.plasmainfuser.name": "Plasma Infuser",
       "splash_potion.effect.plasmapoisoning": "Splash Plasma",
       "item.plasmaingot.name": "Plasma Ingot",
-      "item.darkstonearmorarmorbody.name": "Darkstone Chestplate",
       "item.darkmattershovel.name": "Darkmatter Shovel",
+      "item.darkstonearmorarmorbody.name": "Darkstone Chestplate",
       "tile.darkmatterore.name": "Darkmatter Ore",
       "item.plasmabottle.name": "Plasma Bottle",
       "item.darkstonepickaxe.name": "Darkstone Pickaxe",
       "entity.plasmazombie.name": "Plasma Zombie",
       "fluid.liquidplasma": "LiquidPlasma",
       "item.darkmatterarmorhelmet.name": "Darkmatter Helmet",
+      "item.plasmashovel.name": "Plasma Shovel",
       "tile.voidrock.name": "Void Rock",
       "item.darkstonearmorarmorboots.name": "Darkstone Boots",
       "item.darkstonesword.name": "Darkstone Sword",
       "effect.plasmapoisoning": "Plasma Poisoning",
+      "item.plasmahoe.name": "Plasma Hoe",
       "entity.plasmacreeper.name": "Plasma Creeper",
       "item.darkstoneshovel.name": "Darkstone Shovel",
       "item.darkstoneaxe.name": "Darkstone Axe",
+      "item.plasmasword.name": "Plasma Sword",
       "item.darkmatterarmorbody.name": "Darkmatter Chestplate",
       "tipped_arrow.effect.plasmapoisoning": "Arrow of Plasma",
       "item.antimattergem.name": "Anti-matter Gem",

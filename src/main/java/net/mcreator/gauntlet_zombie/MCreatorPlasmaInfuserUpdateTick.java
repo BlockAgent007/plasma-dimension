@@ -51,7 +51,17 @@ public class MCreatorPlasmaInfuserUpdateTick extends Elementsgauntlet_zombie.Mod
 			{
 				TileEntity inv = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));
 				if (inv != null && (inv instanceof TileEntityLockableLoot))
-					((TileEntityLockableLoot) inv).setInventorySlotContents((int) (0), new ItemStack(Items.GLASS_BOTTLE, (int) (1)));
+					((TileEntityLockableLoot) inv).setInventorySlotContents((int) (0), new ItemStack(Items.GLASS_BOTTLE, (int) ((1 + (new Object() {
+						public int getAmount(BlockPos pos, int sltid) {
+							TileEntity inv = world.getTileEntity(pos);
+							if (inv instanceof TileEntityLockableLoot) {
+								ItemStack stack = ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
+								if (stack != null)
+									return stack.getCount();
+							}
+							return 0;
+						}
+					}.getAmount(new BlockPos((int) x, (int) y, (int) z), (int) (0)))))));
 			}
 			{
 				TileEntity tileEntity = world.getTileEntity(new BlockPos((int) x, (int) y, (int) z));

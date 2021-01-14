@@ -1,0 +1,30 @@
+{
+  "group": "gauntlet_zombie",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "gauntlet_zombie:plasmaingot"
+    },
+    "1": {
+      "item": "gauntlet_zombie:plasmaingot"
+    },
+    "2": {
+      "item": "gauntlet_zombie:plasmaingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "gauntlet_zombie:plasmapickaxe",
+    "count": 1
+  }
+}

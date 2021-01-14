@@ -1,0 +1,27 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "plasma_hoe",
+    "customModelName": "Normal",
+    "name": "Plasma Hoe",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 6,
+    "efficiency": 50.0,
+    "attackSpeed": 1.0,
+    "enchantability": 55,
+    "damageVsEntity": 1.0,
+    "usageCount": 3160,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:PlasmaIngot"
+      }
+    ]
+  }
+}
