@@ -19,6 +19,7 @@ item.darkmattershovel.name=Darkmatter Shovel
 item.darkstonearmorarmorbody.name=Darkstone Chestplate
 tile.darkmatterore.name=Darkmatter Ore
 item.plasmabottle.name=Plasma Bottle
+tile.plasmadecomposer.name=Plasma Decomposer
 item.darkstonepickaxe.name=Darkstone Pickaxe
 entity.plasmazombie.name=Plasma Zombie
 fluid.liquidplasma=LiquidPlasma

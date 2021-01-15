@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "ENTITY": 12,
     "DIMENSION": 2,
-    "GUI": 1
+    "ENTITY": 12,
+    "GUI": 2
   },
   "mod_elements": [
     {
@@ -1328,6 +1328,124 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "PlasmaDecomposer",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlasmaDecomposerRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlasmaDecomposerGUI",
+      "type": "gui",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
+      }
+    },
+    {
+      "name": "PlasmaDecomposerOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UncraftButtonPressed",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DecomposerUncrafting",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1362,6 +1480,7 @@
       "item.darkstonearmorarmorbody.name": "Darkstone Chestplate",
       "tile.darkmatterore.name": "Darkmatter Ore",
       "item.plasmabottle.name": "Plasma Bottle",
+      "tile.plasmadecomposer.name": "Plasma Decomposer",
       "item.darkstonepickaxe.name": "Darkstone Pickaxe",
       "entity.plasmazombie.name": "Plasma Zombie",
       "fluid.liquidplasma": "LiquidPlasma",

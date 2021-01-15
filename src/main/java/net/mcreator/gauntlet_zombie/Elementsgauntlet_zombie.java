@@ -121,6 +121,8 @@ public class Elementsgauntlet_zombie implements IFuelHandler, IWorldGenerator {
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == MCreatorPlasmaInfuserGUI.GUIID)
 				return new MCreatorPlasmaInfuserGUI.GuiContainerMod(world, x, y, z, player);
+			if (id == MCreatorPlasmaDecomposerGUI.GUIID)
+				return new MCreatorPlasmaDecomposerGUI.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -128,6 +130,8 @@ public class Elementsgauntlet_zombie implements IFuelHandler, IWorldGenerator {
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == MCreatorPlasmaInfuserGUI.GUIID)
 				return new MCreatorPlasmaInfuserGUI.GuiWindow(world, x, y, z, player);
+			if (id == MCreatorPlasmaDecomposerGUI.GUIID)
+				return new MCreatorPlasmaDecomposerGUI.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

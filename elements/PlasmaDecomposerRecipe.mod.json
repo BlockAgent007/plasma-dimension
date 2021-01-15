@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:PlasmaDecomposer"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DarkmatterIngot"
+      },
+      {
+        "value": "CUSTOM:PlasmaIngot"
+      },
+      {
+        "value": "CUSTOM:DarkmatterIngot"
+      },
+      {
+        "value": "CUSTOM:DarkmatterIngot"
+      },
+      {
+        "value": "CUSTOM:DarkstonePickaxe"
+      },
+      {
+        "value": "CUSTOM:DarkmatterIngot"
+      },
+      {
+        "value": "CUSTOM:DarkmatterIngot"
+      },
+      {
+        "value": "CUSTOM:AntimatterBlock"
+      },
+      {
+        "value": "CUSTOM:DarkmatterIngot"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "plasmadecomposerrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "gauntlet_zombie",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "1": {
+      "item": "gauntlet_zombie:plasmaingot"
+    },
+    "2": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "3": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "4": {
+      "item": "gauntlet_zombie:darkstonepickaxe"
+    },
+    "5": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "6": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    },
+    "7": {
+      "item": "gauntlet_zombie:antimatterblock"
+    },
+    "8": {
+      "item": "gauntlet_zombie:darkmatteringot"
+    }
+  },
+  "result": {
+    "item": "gauntlet_zombie:plasmadecomposer",
+    "count": 1
+  }
+}
